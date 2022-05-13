@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+h3 {
+  text-decoration: underline;
+}
+.flex1 {
+  background: linear-gradient(aqua, rosybrown);
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+.number {
+  font-weight: 700;
+  font-size: 50px;
+}
+.flex2 {
+  background: linear-gradient(rosybrown, rgb(2, 170, 170));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  border-top: 1px dotted lightgray;
+}
+
+h4,
+h3 {
+  margin: 0;
+}
+.para {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
